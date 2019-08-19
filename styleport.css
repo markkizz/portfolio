@@ -140,10 +140,18 @@ nav ul li a {
     text-shadow: 0.5px 0.5px 6px #a17f73;
 }
 
-.greeting {
+.st-h3-1 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 25px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.st-h3-2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 45px 0px 20px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -154,8 +162,21 @@ p {
     color: gray;
 }
 
+.pro-box {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f3f3f3;
+    box-shadow: 1px 9px 10px 1px #dedede
+    
+}
 
-
+.img-link {
+    background-position: center;
+    margin: 0 16px;
+    width: calc(100% - 32px);
+    height: 100px;
+}
 
 
 
